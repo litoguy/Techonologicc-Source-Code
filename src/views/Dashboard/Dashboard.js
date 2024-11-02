@@ -69,11 +69,11 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Today's Money
+                  Total Active Orders
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
-                    $53,897
+                    53,897
                   </StatNumber>
                 </Flex>
               </Stat>
@@ -86,12 +86,12 @@ export default function Dashboard() {
                 <WalletIcon h={"24px"} w={"24px"} color={iconBoxInside} />
               </IconBox>
             </Flex>
-            <Text color='gray.400' fontSize='sm'>
+             <Text color='gray.400' fontSize='sm'>
               <Text as='span' color='green.400' fontWeight='bold'>
                 +3.48%{" "}
               </Text>
               Since last month
-            </Text>
+            </Text> 
           </Flex>
         </Card>
         <Card minH='125px'>
@@ -108,7 +108,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Today's Users
+                  Pending Orders
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -125,12 +125,12 @@ export default function Dashboard() {
                 <GlobeIcon h={"24px"} w={"24px"} color={iconBoxInside} />
               </IconBox>
             </Flex>
-            <Text color='gray.400' fontSize='sm'>
+             <Text color='gray.400' fontSize='sm'>
               <Text as='span' color='green.400' fontWeight='bold'>
                 +5.2%{" "}
               </Text>
               Since last month
-            </Text>
+            </Text> 
           </Flex>
         </Card>
         <Card minH='125px'>
@@ -186,7 +186,7 @@ export default function Dashboard() {
                   color='gray.400'
                   fontWeight='bold'
                   textTransform='uppercase'>
-                  Total Sales
+                 Completed Orders
                 </StatLabel>
                 <Flex>
                   <StatNumber fontSize='lg' color={textColor} fontWeight='bold'>
@@ -226,7 +226,7 @@ export default function Dashboard() {
           maxW={{ sm: "320px", md: "100%" }}>
           <Flex direction='column' mb='40px' p='28px 0px 0px 22px'>
             <Text color='#fff' fontSize='lg' fontWeight='bold' mb='6px'>
-              Sales Overview
+              Order Overview
             </Text>
             <Text color='#fff' fontSize='sm'>
               <Text as='span' color='green.400' fontWeight='bold'>
