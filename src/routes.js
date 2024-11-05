@@ -61,14 +61,6 @@ var dashRoutes = [
   },
   {
     path: "/tables",
-    name: "Reports and Analytics",
-    rtlName: "Reports and Analytics",
-    icon: <StatsIcon color='inherit' />,
-    component: Tables,
-    layout: "/admin",
-  },
-  {
-    path: "/tables",
     name: "User Management",
     rtlName: "User Management",
     icon: <StatsIcon color='inherit' />,
