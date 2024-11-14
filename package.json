@@ -14,6 +14,7 @@
 		"@fontsource/open-sans": "^4.5.0",
 		"@fontsource/raleway": "^4.5.0",
 		"@fontsource/roboto": "^4.5.0",
+		"@vercel/analytics": "^1.4.0",
 		"ajv": "^8.17.1",
 		"apexcharts": "^3.27.3",
 		"babel-preset-react-app": "^10.0.1",

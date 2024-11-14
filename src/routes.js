@@ -45,22 +45,6 @@ var dashRoutes = [
   },
   {
     path: "/tables",
-    name: "Fleet Management",
-    rtlName: "Fleet Management",
-    icon: <StatsIcon color='inherit' />,
-    component: Tables,
-    layout: "/admin",
-  },
-  {
-    path: "/tables",
-    name: "Real-Time Tracking",
-    rtlName: "Real-Time Tracking",
-    icon: <StatsIcon color='inherit' />,
-    component: Tables,
-    layout: "/admin",
-  },
-  {
-    path: "/tables",
     name: "User Management",
     rtlName: "User Management",
     icon: <StatsIcon color='inherit' />,
